@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>Earthquake Monitor | Valkyrris</title>
+    <meta name="description" content="Real-time earthquake monitoring dashboard with interactive map visualization and Firebase notifications." />
+    <meta name="theme-color" content="#0A0E1A" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Valkyrris" />
+    <meta name="keywords" content="earthquake monitor, real-time, seismic activity, earthquake tracking, Valkyrris" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://monitor.valkyrris.com/" />
+    <meta property="og:title" content="Earthquake Monitor | Valkyrris" />
+    <meta property="og:description" content="Real-time earthquake monitoring dashboard with interactive map visualization and Firebase notifications." />
+    <meta property="og:image" content="https://valkyrris.com/og-image.jpg" />
+    <meta property="og:site_name" content="Valkyrris Monitor" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://monitor.valkyrris.com/" />
+    <meta property="twitter:title" content="Earthquake Monitor | Valkyrris" />
+    <meta property="twitter:description" content="Real-time earthquake monitoring dashboard with interactive map visualization and Firebase notifications." />
+    <meta property="twitter:image" content="https://valkyrris.com/og-image.jpg" />
+    
+    <!-- Additional SEO -->
+    <link rel="canonical" href="https://monitor.valkyrris.com/" />
+    <link rel="apple-touch-icon" href="/logo.svg" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Valkyrris",
+      "url": "https://valkyrris.com",
+      "logo": "https://valkyrris.com/logo.svg",
+      "description": "A self-directed learning project exploring industrial intelligence systems and data integration concepts",
+      "foundingDate": "2025",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "michael@valkyrris.com"
+      },
+      "sameAs": [
+        "https://linkedin.com/company/valkyrris",
+        "https://twitter.com/valkyrris"
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- Note: In production, Vite will replace this with the built JS file -->
+    
+    <!-- VALKYRRIS Accessibility Widget - תוסף נגישות מותאם אישית -->
+    <script src="/accessibility-widget.js" defer></script>
+    
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+  </body>
+</html>
